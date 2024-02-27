@@ -1,5 +1,9 @@
 /* ESTILOS ESPECIALES PARA mapa.html */
 
+.ms-custom{
+    margin-left: 6%;
+}
+
 /* Estilos para título con responsive */
 .text-mapa{
     color: #AFFC41 !important;

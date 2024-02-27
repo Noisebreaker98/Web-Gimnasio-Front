@@ -1,0 +1,21 @@
+.contacto-container {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(../images/images/Foto3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 65%;
+    min-height: 700px;
+    text-align: center;
+}
+
+.contacto-title{
+    font-size: clamp(1.5rem, 1vw + 3rem, 5rem);
+    font-weight: 600;
+}
+
+/* Texto responsive */
+@media (max-width: 768px) {
+    .contacto-title{
+        font-size: clamp(2.3rem, 1vw + 1.5rem, 3.5rem);
+    }
+}
