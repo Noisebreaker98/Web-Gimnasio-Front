@@ -76,7 +76,7 @@ footer {
 }
 
 .loginContainer {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(/images/images/Foto15.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(../images/Foto15.jpg);
     background-size: cover;
     /* Para ajustar la imagen al tamaño del contenedor */
     background-repeat: no-repeat;
