@@ -75,7 +75,7 @@ footer {
     font-size: 32px;
 }
 .tarifasInicio {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(/images/images/Foto14.webp);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(../images/Foto14.webp);
     background-size: cover;
     /* Para ajustar la imagen al tamaño del contenedor */
     background-repeat: no-repeat;
