@@ -74,86 +74,25 @@ footer {
     padding: 20px;
     font-size: 32px;
 }
-
-.loginContainer {
-    background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(/images/images/Foto15.jpg);
+.tarifasInicio {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(/images/images/Foto14.webp);
     background-size: cover;
     /* Para ajustar la imagen al tamaño del contenedor */
     background-repeat: no-repeat;
     /* Para que la imagen no se repita */
     width: 100%;
     /* Ancho deseado */
-    height: 65%;
+    height: 45%;
     /* Alto deseado */
     min-height: 700px;
     text-align: center;
 }
-
-.tituloLogin {
-    padding-top: 5rem;
-    color: white;
+.tarifasInicio__Tittle{
+    padding-top: 19rem;
+    color: #086375;
     font-family: "Oswald";
     font-weight: 1000;
-    font-size: 2.5rem;
-}
-
-.input-container {
-    margin-bottom: 10px;
-}
-
-.input-container input[type="text"],
-.input-container input[type="password"] {
-    border: 0px solid black;
-    border-radius: 100px;
-    padding: 0.5rem;
-    margin: 0.2rem;
-    width: 20rem;
-}
-
-form {
-    margin-top: 4rem;
-}
-
-.input-container input::placeholder {
-    padding-left: 1rem;
-}
-
-.enlace {
-    color: rgb(5, 5, 5);
-    /* Color del texto */
-    text-decoration: underline;
-    /* Subrayado por defecto */
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    text-transform: none;
-    position: relative;
-    right: 3rem;
-}
-
-.enlace:hover {
-    color: rgb(252, 252, 252);
-}
-.seccionCheck{
-    position: relative;
-    right: 2.8rem;
-}
-.negrita{
-    color: black;
-    padding-left: 0.3rem;
-}
-.botonSesion{
-    border: 0px solid black;
-    border-radius: 100px;
-    margin-top: 3rem;
-    background-color: #AFFC41;
-    font-size: 2rem;
-    font-weight: 700;
-    padding-left: 3rem!important;
-    padding-right: 3rem!important;
-    padding-top: 0;
-    padding-bottom: 0;
-}
-.botonSesion:hover{
-    background-color: rgb(99, 151, 20);
+    font-size: 5rem;
 }
 .seccionInteres{
     background-color: #AFFC41;
@@ -166,15 +105,45 @@ form {
     padding: 2rem;
     text-align: center;
 }
-.seccionInteres__title {
-    color: #3C1642;
-    font-family: "Oswald";
-    font-weight: 900;
-}
 .seccionInteres__content{
-    color: #3C1642;
-    font-weight: 600;
-    padding-top: 1rem;
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+.seccionInteres__title {
+    color: #fdfdfd;
+    font-family: "Oswald";
+    font-weight: 1000;
+}
+.seccionInteres__resaltado{
+    color: #086375;
+}
+.card-body{
+    text-align: center;
+    background-color: rgb(226, 226, 226);
+    min-height: 300px;
+    padding-top: 3.5rem;
+}
+.card-body:hover{
+    text-align: center;
+    background-color:#AFFC41;
+    transform: scale(1.15);
+    z-index: 999;
+}
+.card-title{
+    color: #086375;
+    font-weight: 1000;
+    font-size: 4vh;
+    margin: auto;
+}
+.card-title_secondary{
+    color: black;
+    font-weight: 1000;
+}
+.card-text{
+    margin-bottom: 0!important;
+    color: black!important;
+    font-weight: 700;
 }
 /* Media querys responsive */
 @media (max-width: 768px) {
@@ -197,5 +166,11 @@ form {
 
     footer {
         padding-top: 20px;
+    }
+}
+/* Texto responsive */
+@media (max-width: 768px) {
+    .text-mapa{
+        font-size: clamp(2.5rem, 1vw + 1.5rem, 3.5rem);
     }
 }
