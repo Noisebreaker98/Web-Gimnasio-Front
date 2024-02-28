@@ -4,76 +4,7 @@
     font-style: normal;
     font-weight: normal;
   }
-/* CSS Reset */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body {
-    font-family: 'Open Sans', sans-serif;
-}
-
-.font-oswald {
-    font-family: 'Oswald', sans-serif;
-}
-
-.bg-primary {
-    background-color: #3C1642 !important;
-}
-
-.text-primary {
-    color: #3C1642 !important;
-}
-
-.text-secondary {
-    color: #086375 !important;
-}
-
-header {
-    height: 12%;
-    width: 100%;
-}
-
-.nav {
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    padding: 0;
-}
-
-.nav-item {
-    margin-right: 15px;
-}
-
-.nav-link {
-    color: white;
-    text-decoration: none;
-    font-size: 1.5rem;
-    font-family: 'Oswald', sans-serif;
-}
-
-.language-icon {
-    color: white;
-    font-size: 20px;
-    margin-bottom: 60px;
-}
-
-a {
-    text-decoration: none;
-    color: white;
-    text-transform: uppercase;
-}
-
-footer {
-    padding-top: 30px;
-}
-
-.iconos {
-    padding: 20px;
-    font-size: 32px;
-}
 .tarifasInicio {
     background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(../images/Foto14.webp);
     background-size: cover;
@@ -87,6 +18,7 @@ footer {
     min-height: 700px;
     text-align: center;
 }
+
 .tarifasInicio__Tittle{
     padding-top: 19rem;
     color: #086375;
@@ -94,6 +26,7 @@ footer {
     font-weight: 1000;
     font-size: 5rem;
 }
+
 .seccionInteres{
     background-color: #AFFC41;
     border: 0px solid black;
@@ -105,6 +38,7 @@ footer {
     padding: 2rem;
     text-align: center;
 }
+
 .seccionInteres__content{
     color: #ffffff;
     font-weight: 800;
@@ -115,15 +49,18 @@ footer {
     font-family: "Oswald";
     font-weight: 1000;
 }
+
 .seccionInteres__resaltado{
     color: #086375;
 }
+
 .card-body{
     text-align: center;
     background-color: rgb(226, 226, 226);
     min-height: 300px;
     padding-top: 3.5rem;
 }
+
 .card-body:hover{
     text-align: center;
     background-color:#AFFC41;
@@ -162,10 +99,6 @@ footer {
         justify-content: flex-start;
         margin-bottom: 10px;
         margin-left: 20px;
-    }
-
-    footer {
-        padding-top: 20px;
     }
 }
 /* Texto responsive */
