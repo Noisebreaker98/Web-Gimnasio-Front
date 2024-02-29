@@ -57,7 +57,7 @@
 .card-body{
     text-align: center;
     background-color: rgb(226, 226, 226);
-    min-height: 300px;
+    min-height: 400px;
     padding-top: 3.5rem;
 }
 
@@ -70,17 +70,56 @@
 .card-title{
     color: #086375;
     font-weight: 1000;
-    font-size: 4vh;
+    font-size: 4.5vh;
     margin: auto;
 }
 .card-title_secondary{
     color: black;
     font-weight: 1000;
+    margin-bottom: 2rem;
 }
 .card-text{
     margin-bottom: 0!important;
     color: black!important;
     font-weight: 700;
+}
+#seccionTarifaEspecial{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.imagenes{
+    padding: 1rem;
+    width: 100px;
+}
+.seccionTarifaEspecial__title{
+    padding: 1.5rem;
+    text-align: center;
+    color: #3C1642;
+}
+.seccionTarifaEspecial__title1{
+    position: relative;
+    left: -3.7rem;
+}
+.seccionTarifaEspecial__title3{
+    position: relative;
+    left: -1.8rem;
+}
+.seccionTarifaEspecial__price{
+    color: #AFFC41;
+    font-size: 11rem;
+}
+.seccionTarifaEspecial__price2{
+    position: relative;
+    color: #AFFC41;
+    font-size: 2.7rem;
+    top: -2rem;
+    right: -8rem;
+}
+.seccionTarifaEspecial__lastTitle{
+    text-align: center;
+    font-weight: 600;
 }
 /* Media querys responsive */
 @media (max-width: 768px) {
