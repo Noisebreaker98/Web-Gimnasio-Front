@@ -15,12 +15,12 @@
     /* Ancho deseado */
     height: 45%;
     /* Alto deseado */
-    min-height: 700px;
+    min-height: 65vh;
     text-align: center;
 }
 
 .tarifasInicio__Tittle{
-    padding-top: 19rem;
+    padding-top: 15rem;
     color: #086375;
     font-family: "Oswald";
     font-weight: 1000;
@@ -125,22 +125,34 @@
 .card-with-background {
     background-size: cover;
     background-position: center;
-    height: 55vh; /* ajusta la altura según sea necesario */
+    height: 60vh; /* ajusta la altura según sea necesario */
     margin: 3rem;
     text-align: center;
 }
 .card-with-background1{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(../images/Foto3.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0.44)), url(../images/Foto3.jpg);
+    min-height: 500px;
 }
 .card-with-background2{
-    background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(../images/Foto16.jpg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.44), rgba(255, 255, 255, 0.44)), url(../images/Foto16.jpg);
+    min-height: 500px;
 }
 .cuerpo2{
-    background-color: beige;
-    height: 200px;
+    background-color: #AFFC41;
+}
+.cuerpoTitle{
+    color: white;
+    margin-top: 2.5rem;
 }
 .cards-group2{
     margin: 2rem;
+}
+.titlePersonalizado{
+    color: black;
+    padding: 0.3rem;
+}
+.titlePersonalizado2{
+    color: white;
 }
 /* Media querys responsive */
 @media (max-width: 768px) {
