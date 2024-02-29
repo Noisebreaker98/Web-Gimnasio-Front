@@ -1,0 +1,115 @@
+.image-section {
+    position: relative;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.image-section .image-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+.installations-section {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.installation {
+    width: 100%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.installation img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.54;
+}
+
+.installation h3 {
+    color: #086375;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.locations-section {
+    margin-top: 20px;
+    color: black;
+}
+
+.locations-section h3 {
+    color: black;
+    font-family: 'Oswald', sans-serif;
+}
+
+.list-group-item {
+    background-color: #000;
+    color: white;
+}
+
+.map-link img {
+    width: 13%;
+    height: 13%;
+    margin-top: 10px;
+}
+
+.gallery-section {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.class {
+    width: 33%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.class img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    opacity: 0.54;
+}
+
+.class h1 {
+    color: #086375;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
+.more-section {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.more-section h1 {
+    color: #086375;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+}

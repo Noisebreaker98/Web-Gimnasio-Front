@@ -1,0 +1,83 @@
+/* ESTILOS ESPECIALES PARA mapa.html */
+
+.ms-custom{
+    margin-left: 6%;
+}
+
+/* Estilos para título con responsive */
+.text-mapa{
+    color: #AFFC41 !important;
+    font-size: clamp(3rem, 1vw + 3.5rem, 5rem);
+    font-weight: 600;
+}
+
+/* Estilos para las listas y sus viñetas */
+.lista-mapa {
+    list-style-type: none;
+}
+
+.lista-mapa li {
+    padding-left: 20px;
+    position: relative; 
+}
+
+.lista-mapa>li::before{
+    content: ''; 
+    width: 12px; 
+    height: 12px; 
+    background-color: #086375; 
+    border-radius: 50%; 
+    position: absolute; 
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+    margin-right: 10px; 
+}
+
+.lista-mapa>li:nth-child(2)::before{
+    position: absolute;
+    left: 0;
+    top: 6%;
+    margin-right: 10px; 
+}
+
+.lista-clases {
+    list-style-type: none;
+}
+
+.lista-clases li {
+    padding-left: 20px;
+    position: relative; 
+}
+
+.lista-clases>li::before {
+    content: ''; 
+    width: 10px; 
+    height: 10px; 
+    border: 1px solid #000;
+    background-color: #fff; 
+    border-radius: 50%; 
+    position: absolute; 
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%); 
+    margin-right: 10px; 
+}
+
+/* Colores para los elementos de las listas */
+.text-li-2{
+    color: #086375 !important;
+    font-weight: 700;
+}
+
+.text-li-3{
+    color: #3C1642 !important;
+    font-weight: 700;
+}
+
+/* Texto responsive */
+@media (max-width: 768px) {
+    .text-mapa{
+        font-size: clamp(2.5rem, 1vw + 1.5rem, 3.5rem);
+    }
+}

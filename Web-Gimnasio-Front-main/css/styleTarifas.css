@@ -1,0 +1,148 @@
+@font-face {
+    font-family: 'Oswald';
+    src: url('/Proyecto/fonts/Oswald/static/Oswald-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+  }
+
+.tarifasInicio {
+    background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(../images/Foto14.webp);
+    background-size: cover;
+    /* Para ajustar la imagen al tamaño del contenedor */
+    background-repeat: no-repeat;
+    /* Para que la imagen no se repita */
+    width: 100%;
+    /* Ancho deseado */
+    height: 45%;
+    /* Alto deseado */
+    min-height: 700px;
+    text-align: center;
+}
+
+.tarifasInicio__Tittle{
+    padding-top: 19rem;
+    color: #086375;
+    font-family: "Oswald";
+    font-weight: 1000;
+    font-size: 5rem;
+}
+
+.seccionInteres{
+    background-color: #AFFC41;
+    border: 0px solid black;
+    border-radius: 2rem;
+    width: 80%;
+    height: 20%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 2rem;
+    text-align: center;
+}
+
+.seccionInteres__content{
+    color: #ffffff;
+    font-weight: 800;
+    font-size: 1.4rem;
+}
+.seccionInteres__title {
+    color: #fdfdfd;
+    font-family: "Oswald";
+    font-weight: 1000;
+}
+
+.seccionInteres__resaltado{
+    color: #086375;
+}
+
+.card-body{
+    text-align: center;
+    background-color: rgb(226, 226, 226);
+    min-height: 400px;
+    padding-top: 3.5rem;
+}
+
+.card-body:hover{
+    text-align: center;
+    background-color:#AFFC41;
+    transform: scale(1.15);
+    z-index: 999;
+}
+.card-title{
+    color: #086375;
+    font-weight: 1000;
+    font-size: 4.5vh;
+    margin: auto;
+}
+.card-title_secondary{
+    color: black;
+    font-weight: 1000;
+    margin-bottom: 2rem;
+}
+.card-text{
+    margin-bottom: 0!important;
+    color: black!important;
+    font-weight: 700;
+}
+#seccionTarifaEspecial{
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+.imagenes{
+    padding: 1rem;
+    width: 100px;
+}
+.seccionTarifaEspecial__title{
+    padding: 1.5rem;
+    text-align: center;
+    color: #3C1642;
+}
+.seccionTarifaEspecial__title1{
+    position: relative;
+    left: -3.7rem;
+}
+.seccionTarifaEspecial__title3{
+    position: relative;
+    left: -1.8rem;
+}
+.seccionTarifaEspecial__price{
+    color: #AFFC41;
+    font-size: 11rem;
+}
+.seccionTarifaEspecial__price2{
+    position: relative;
+    color: #AFFC41;
+    font-size: 2.7rem;
+    top: -2rem;
+    right: -8rem;
+}
+.seccionTarifaEspecial__lastTitle{
+    text-align: center;
+    font-weight: 600;
+}
+/* Media querys responsive */
+@media (max-width: 768px) {
+    .logo {
+        max-width: 80px;
+        margin-left: 5px;
+    }
+
+    .nav-item {
+        margin-right: 0;
+        margin-left: 20px;
+    }
+
+    .language-icon {
+        display: flex;
+        justify-content: flex-start;
+        margin-bottom: 10px;
+        margin-left: 20px;
+    }
+}
+/* Texto responsive */
+@media (max-width: 768px) {
+    .text-mapa{
+        font-size: clamp(2.5rem, 1vw + 1.5rem, 3.5rem);
+    }
+}
