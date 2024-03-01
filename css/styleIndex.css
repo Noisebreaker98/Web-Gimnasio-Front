@@ -1,16 +1,18 @@
-/* ESTILOS ESPECIALES PARA index.html */
-
 .image-section {
     position: relative;
+    width: 100%;
+    max-height: 60vh;
+    overflow: hidden;
 }
 
 .image-section img {
     width: 100%;
     height: auto;
+    max-height: 100vh;
     display: block;
 }
 
-.image-section .image-text {
+.image-section h1 {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -18,26 +20,25 @@
     text-align: center;
     width: 100%;
     color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 4em;
+    font-weight: bold;
 }
 
 .installations-section {
-    margin-top: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
+    margin-top: 20px; 
 }
 
 .installation {
-    width: 100%;
-    margin-bottom: 20px;
-    position: relative;
+    text-align: center;
+    margin-bottom: 20px; 
 }
 
 .installation img {
     width: 100%;
     height: auto;
     object-fit: cover;
-    opacity: 0.54;
+    margin: 10px;
 }
 
 .installation h3 {
@@ -50,27 +51,28 @@
     transform: translate(-50%, -50%);
     text-align: center;
     width: 100%;
+    margin: 0;
 }
 
 .locations-section {
+    display: flex;
     margin-top: 20px;
-    color: black;
 }
 
-.locations-section h3 {
-    color: black;
-    font-family: 'Oswald', sans-serif;
+.locations-section p {
+    margin-bottom: 10px;
 }
 
-.list-group-item {
-    background-color: #000;
-    color: white;
+.locations-section img {
+    max-width: 100%;
 }
 
-.map-link img {
-    width: 13%;
-    height: 13%;
-    margin-top: 10px;
+.locations-section ul {
+    margin: 50px;
+}
+
+.map-link {
+    text-align: center;
 }
 
 .gallery-section {
@@ -81,16 +83,17 @@
 }
 
 .class {
-    width: 33%;
+    width: 48%;
     margin-bottom: 20px;
     position: relative;
 }
 
 .class img {
     width: 100%;
-    height: auto;
+    height: 200px;
     object-fit: cover;
     opacity: 0.54;
+    margin-top: 40px;
 }
 
 .class h1 {
@@ -106,7 +109,7 @@
 }
 
 .more-section {
-    margin-top: 20px;
+    margin: 20px;
     text-align: center;
 }
 
@@ -114,4 +117,43 @@
     color: #086375;
     font-family: 'Oswald', sans-serif;
     font-weight: bold;
+    text-align: center;
+}
+
+#titulo{
+    color: #AFFC41;
+    margin-top: 20px;
+}
+
+.galeria-clases {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.clase {
+    width: 33%;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.clase img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    margin-top: 40px;
+}
+
+.clase #texto {
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+    background-color: rgba(169, 169, 169, 0.8);
 }
