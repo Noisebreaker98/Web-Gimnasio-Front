@@ -1,9 +1,4 @@
-@font-face {
-    font-family: 'Oswald';
-    src: url('/Proyecto/fonts/Oswald/static/Oswald-Bold.ttf') format('truetype');
-    font-style: normal;
-    font-weight: normal;
-}
+/* ESTILOS ESPECIALES PARA tarifas.html */
 
 .tarifasInicio {
     background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(../images/Foto14.webp);

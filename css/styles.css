@@ -1,3 +1,5 @@
+/* ESTILOS GENERALES QUE UTILIZARÁ TODA LA WEB */
+
 /* Importar fuente OSWALD */
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
 
@@ -8,6 +10,7 @@
     box-sizing: border-box;
 }
 
+/* Fuente estándar */
 body {
     font-family: 'Open Sans', sans-serif;
 }
@@ -16,10 +19,12 @@ html{
     scroll-behavior: smooth;
 }
 
+/* Fuente personalizada en títulos */
 h1,h2,h3,h4,header {
     font-family: 'Oswald', sans-serif;
 }
 
+/* Clases utilitarias para colores  */
 .bg-primary {
     background-color: #3C1642 !important;
 }
@@ -32,6 +37,7 @@ h1,h2,h3,h4,header {
     color: #086375 !important;
 }
 
+/* Estilos header */
 header {
     height: auto;
     padding: 15px 0;
@@ -42,6 +48,7 @@ header {
     max-width: 100px;
 }
 
+/* Estilos barra de navegación - menú horizontal */
 .nav {
     list-style: none;
     padding: 0;
@@ -77,16 +84,19 @@ header {
     font-size: 20px;
 }
 
+/* Estilos enlaces */
 a {
     text-decoration: none;
     color: white;
     text-transform: uppercase;
 }
 
+/* Estilos footer */
 footer {
     padding-top: 30px;
 }
 
+/* Estilos iconos */
 .iconos {
     padding: 20px;
     font-size: 32px;

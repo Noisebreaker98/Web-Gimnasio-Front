@@ -96,23 +96,58 @@
             <h1 class="text-white pt-5 contacto-title">¿NOS NECESITAS?</h1>
             <h4 class="text-white">RELLENA EL FORMULARIO Y UN ESPECIALISTA SE
                 PONDRÁ EN CONTACTO CONTIGO LO ANTES POSIBLE</h4>
-            <div class="container">
+            <div class="container mt-5 w-60">
                 <div class="row">
-                    <div class="col col-md-6">
+                    <div class="col col-md-6 d-flex align-items-center justify-content-center">
                         <form action="" method="post">
                             <div class="input-group mb-3">
                                 <input type="text" name="nombre" id="nombre" placeholder="Nombre *">
                             </div>
-                            <div class="input-group mb-3">
+                            <div class="input-group mb-4">
                                 <input type="email" name="email" id="email" placeholder="Correo electrónico *">
                             </div>
-                            <div class="input-group">
-                                <textarea name="mensaje" id="mensaje" cols="30" rows="10" placeholder="Escribe tu mensaje..."></textarea>
+                            <div class="input-group mb-3">
+                                <textarea name="mensaje" id="mensaje" placeholder="Escribe tu mensaje..."></textarea>
                             </div>
-                                <button class="d-flex justify-content-center" type="submit">Enviar</button>
+                            <button class="btn-submit mb-5 ms-custom" type="submit">Enviar</button>
                         </form>
                     </div>
-                    <div class="col col-md-6"></div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="row mb-5">
+                            <div class="col-md-6 col-4 p-0">
+                                <i class="fa-brands fa-whatsapp fa-8x text-white"></i>
+                            </div>
+                            <div class="col-md-6 col-8 p-0">
+                                <h2 class="text-white mt-4">WHATSAPP</h2>
+                                <h2 class="text-white">668 547 853</h2>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-6 col-8">
+                                <h2 class="text-white mt-2">TELÉFONO</h2>
+                                <h2 class="text-white">668 547 853</h2>
+                            </div>
+                            <div class="col-md-6 col-4 mb-5">
+                                <i class="fa-solid fa-phone fa-6x text-white"></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="text-center font-reset fw-bold mt-3">Aunque siempre nos hace ilusión una visita</h2>
+        <div class="container w-50">
+            <div class="row">
+                <div class="col-md-6 mt-2 d-flex justify-content-center">
+                    <ul>
+                        <li class="fs-4">Tomelloso</li>
+                        <li class="fs-4">Alcázar de San Juan</li>
+                        <li class="fs-4">Villacañas</li>
+                        <li class="fs-4">Manzanares</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 mb-4 d-flex justify-content-center">
+                        <img class="img-map" src="../images/maps.png" alt="maps.png" height="200" width="200">
                 </div>
             </div>
         </div>
@@ -158,6 +193,17 @@
             </div>
         </div>
     </footer>
+    <!-- Pequeño script que ajusta el inicio del texto del textarea al escribir -->
+    <script>
+        // Obtenemos el elemento textarea
+        var textarea = document.getElementById('mensaje');
+
+        // Agregamos un margen interno simulado al inicio del contenido
+        textarea.addEventListener('input', function () {
+            textarea.style.paddingLeft = '20px';
+        });
+
+    </script>
 </body>
 
 </html>

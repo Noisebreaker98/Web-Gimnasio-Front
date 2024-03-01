@@ -1,16 +1,84 @@
+/* ESTILOS ESPECIALES PARA contacto.html */
+
+/* Clase utilitaria para reseteo de fuente */
+.font-reset{
+    font-family: initial;
+}
+
+/* Margen izquierdo personalizado */
+.ms-custom{
+margin-left: 4.3rem;
+}
+
+/* Estilos contenedor formulario - teléfono - whatsapp */
 .contacto-container {
     background-image: linear-gradient(rgba(255, 255, 255, 0.54), rgba(255, 255, 255, 0.54)), url(../images/Foto3.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: 40% 30%;
     width: 100%;
-    height: 65%;
-    min-height: 700px;
+    height: 100%;
     text-align: center;
+    aspect-ratio: 23 / 8;
 }
 
+/* Estilos título formulario */
 .contacto-title{
     font-size: clamp(1.5rem, 1vw + 3rem, 5rem);
     font-weight: 600;
+}
+
+/* Estilos para campos del formulario, efecto hover, pseudoclases, etc. */
+.input-group input{
+    border: 0px solid black;
+    border-radius: 100px;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    width: 20rem;
+}
+
+.input-group textarea{
+    border: 0px solid black;
+    border-radius: 50px;
+    padding: 0.5rem;
+    margin: 0.2rem;
+    min-width: 20rem;
+    min-height: 13rem;
+    resize: none;
+    overflow: hidden;
+}
+
+.input-group input::placeholder{
+    padding-left: 0.8rem;
+}
+
+.input-group textarea::placeholder{
+    padding: 1rem 0 0 0.8rem;
+}
+
+.btn-submit{
+    display: flex;
+    justify-content: center;
+    width: 12rem;
+    border: 0px solid black;
+    border-radius: 100px;
+    background-color: #AFFC41;
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    padding-left: 3rem!important;
+    padding-right: 3rem!important;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.btn-submit:hover{
+    background-color: rgb(99, 151, 20);
+}
+
+/* Estilos mapa */
+.img-map{
+    border-radius: 16%;
 }
 
 /* Texto responsive */
